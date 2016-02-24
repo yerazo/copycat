@@ -12,12 +12,20 @@ body{
 .secondary-text{
   color:white;
 }
+.secondary-background{
+  background-color: white;
+}
+
 main{
 	width: 100%;
 }
+
+/*Header*/
+
 #header{
 	width: 100%;
 	height: 80px;
+	line-height: 80px;
 	overflow: auto;
 	margin-bottom: 50px;
 }
@@ -29,7 +37,8 @@ main{
 #header .logo img{
 	width: 15%;
 	display: inline-block;
-	margin: 10px 0px 0px 80px;
+	vertical-align: middle;
+	/* margin: 10px 0px 0px 80px; */
 }
 #logotype{
 	font-size: 30px;
@@ -111,7 +120,7 @@ main{
 #footer{
 	width: 100%;
 	height: 80px;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px 30px 0px;
 	text-align: center;
 	clear: both;
 }
@@ -122,7 +131,18 @@ main{
 	padding: 0px 0px 10px 0px;
 	display: block;
 }
+#footer ul{
+	padding: 0;
+	list-style-type: none;
+}
 #footer li{
 	margin-right: 10px;
 	display: inline;
+}
+#footer ul li a{
+	text-decoration: none;
+	color: white;
+}
+#footer ul li a:hover{
+	opacity: 0.8;
 }
